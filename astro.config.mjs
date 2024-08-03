@@ -6,7 +6,7 @@ import svelte from "@astrojs/svelte";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), svelte()],
-  site: 'https://myspace.github.io',
   output: "server",
+  base:"myspace.github.io",
   
 });
