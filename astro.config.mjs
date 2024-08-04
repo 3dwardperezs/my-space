@@ -7,6 +7,6 @@ import svelte from "@astrojs/svelte";
 export default defineConfig({
   integrations: [tailwind(), svelte()],
   output: "server",
-  base:"myspace.github.io",
-  
+  site: 'https://edparasiempre.github.io',
+  base: 'my-space',
 });
