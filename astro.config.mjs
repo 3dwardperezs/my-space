@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 import tailwind from "@astrojs/tailwind";
-
+import netlify from '@astro/netlify';
 import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
