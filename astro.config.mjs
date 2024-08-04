@@ -9,5 +9,5 @@ export default defineConfig({
   output: "server",
   site: 'https://3dwardperezs.github.io',
   base: 'my-space',
-  adapter: netlify(),
+  adapter: netlify()
 });
