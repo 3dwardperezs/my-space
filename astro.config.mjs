@@ -8,5 +8,5 @@ export default defineConfig({
   integrations: [tailwind(), svelte()],
   output: "server",
   site: 'https://3dwardperezs.github.io',
-  base: 'my-space',
+  base: 'my-space'
 });
